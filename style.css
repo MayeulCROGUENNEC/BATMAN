@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
+
+body, html {height:100%; margin:0;}
+
+html { overflow-y: hidden; } 
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.controls {
+  position: fixed;
+}
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #ee3148;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 6px;
+}
+
+body {}
+
+section {
+  display:block;
+  width:100%;
+  text-align:center;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:solid black;
+  height:105%;
+}
+section.left {
+}
+
+article {
+  box-shadow:1px 1px 5px rgba(0,0,0,.5);
+  max-width:62em;
+  margin:auto;
+  padding:1em 2.2em;
+  background:#faf5e5;
+  background:rgba(255,250,250,.55);
+  opacity:.94;
+}
+
+.button-wrapper {
+text-align:center;
+margin:5px;
+}
+
+section a {
+  display:inline-block;
+background:#911;
+  border:solid 1px #ddd;
+color:white;
+text-decoration:none;
+font-size:1.5em;
+padding:.5em .6em;
+  margin:2px;
+  border-radius:0.25em;
+  margin:auto;
+  box-shadow: inset 0 2px 4px 2px rgba(255,255,255,.3), 0 2px 2px rgba(0,0,0,.5);
+}
+
+section a:active {
+    box-shadow: inset 0 2px 4px 2px rgba(10,10,10,.3), 0 2px 2px rgba(0,0,0,.5);
+
+}
+
+h1, h2, h3, h4, h5 {
+ font-family: 'Alegreya', serif;
+line-height:1.05;
+  margin:.1em auto .25em;
+}
+h1 { font-size:5em;}
+h2 { font-size:2.6em; }
+
+p {
+font-size:26px;
+ font-family: 'Alegreya Sans', sans-serif;
+  margin:.4em auto;
+}
+
+#intro {
+  display:block;
+ background:url(https://www.freeiconspng.com/uploads/blue-batman-character-png-0.png)  0 7.5em no-repeat ;
+  background-size:100%;
+  color:#2D2C2C;
+  background-color:#939090;
+}
+#intro article{
+  background:none;
+  box-shadow:none;
+  text-shadow:2px 2px #000;
+}
+
+
+#p2 { background:url(https://meszimages.com/images/2016/06/27/silhouette-toits-de-la-ville-nuit-etoiles-ciel.jpg) #156 center;
+background-size: 100%;
+}
+#p2_1 { background:url(https://meszimages.com/images/2016/06/27/silhouette-toits-de-la-ville-nuit-etoiles-ciel.jpg) #156 center;
+background-size: 100%;
+}
+#p3 { background:url(https://i.pinimg.com/originals/31/b9/b8/31b9b82ae8e4ea10930372e2637365f7.jpg) #156 center;
+background-size: 100%;
+}
+#quickdeath1 { background:url(https://i1.wp.com/comichunter.com/wp-content/uploads/2016/06/batmobile-comics.jpg) #156 center;
+background-size: 100%;
+}
+
+#quickdeath2 { background:url(https://images.alphacoders.com/868/868752.png) #156 center;
+background-size: 100%;
+}
+#quickdeath4 { background:url(http://www.wallpapersbyte.com/wp-content/uploads/2015/07/Batman-Arkham-Knight-Logo-Shadow-Black-Background-WallpapersByte-com-1920x1080.jpg) #156 center;
+background-size: 100%;
+}
+#quickdeath5 { background:url(https://media.xboxlive.fr/galeries/3807/047.jpg) #156 center;
+background-size: 100%;
+}
+#GORDON { background:url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-591667.png) #156 center;
+background-size: 100%;
+}
+#hero { background:url(https://static.giantbomb.com/uploads/original/28/281548/2766414-5266286761-27620.jpg) #156 center;
+background-size: 100%;
+}
+#Batou_fragile { background:url(https://www.star2.com/wp-content/uploads/2017/11/Batman-edit.jpg) #156 center;
+background-size: 100%;
+}
+#ORACLE { background:url(https://www.themarysue.com/wp-content/uploads/2015/07/oracle-shoes-batgirl.jpg) #156 center;
+background-size: 100%;
+}
+#JOKER1 { background:url(https://international.download.nvidia.com/geforce-com/international/images/batman-arkham-origins/batman-arkham-origins-general-screenshot-7.png) #156 center;
+background-size: 100%;
+}
+#JOKER2 { background:url(https://vignette.wikia.nocookie.net/arkhamcity/images/3/3c/Batman-fight-screenshot-batman_arkham_knight-1920x1200.jpg/revision/latest?cb=20150501162847) #156 center;
+background-size: 100%;
+}
+#JOKER3 { background:url(https://fsmedia.imgix.net/aa/0e/38/80/df96/4714/b09c/7164772c3876/batman-the-killing-joke.jpeg) #156 center;
+background-size: 100%;
+}
+#JOKERDEAD { background:url(https://i.ytimg.com/vi/I3EBVSJuazg/maxresdefault.jpg) #156 center;
+background-size: 100%;
+}
+#JOKERJAIL { background:url(http://www.wallpaperbetter.com/wallpaper/556/503/700/batman-the-dark-knight-joker-hd-1080P-wallpaper.jpg) #156 center;
+background-size: 100%;
+}
+#JOKERJAIL2 { background:url(https://images6.alphacoders.com/400/400558.jpg) #156 center;
+background-size: 100%;
+}
